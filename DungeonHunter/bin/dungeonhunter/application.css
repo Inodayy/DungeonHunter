@@ -1,0 +1,12 @@
+/**
+ * Name: application
+ * Author: Inoday Yadav
+ * Date: February 1, 2021
+ * Purpose: This class configures the start up window buttons to give them a more appealing look
+ */
+
+.button {
+	-fx-text-fill: black;
+	-fx-background-color: radial-gradient(radius 100.0%, black, red, yellow);
+    -fx-font-size: 14px;
+}

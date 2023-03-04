@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Name: HowToPlay.fxml
+	Author: Inoday Yadav
+	Date: February 1, 2021
+	Purpose: This is the code that creates the how to play window from scene builder -->
+	
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dungeonhunter.StartUpWindow">
+   <children>
+      <TextArea editable="false" prefHeight="343.0" prefWidth="600.0" text="HOW TO PLAY:&#10;You are the Hunter. Your job is to kill all enemies and defeat the final boss to win.&#10;Watch out for traps such as the spinning saw and the wall that has spikes on it as &#10;they will make you lose lives. You start the game with three lives. Gold is earned upon &#10;killing enemies. Once you reach 6 gold the level ends and you are prompted&#10;with 3 different power up options: 3 gold for +2 speed, 3 gold for +1 lives, or &#10;6 gold for +3 lives. One your gold reaches 0 you proceed to the next level, there are&#10;3 different levels total, the last one holding the final boss which you must defeat&#10;to beat the game.&#10;&#10;CONTROLS:&#10;X: Close range attack, only works on monsters (that shoot bullets)&#10;Z: Ranged attack, only works on bats and the final boss&#10;SPACEBAR: Use to dash a short distance quickly&#10;ARROW KEYS: To move left, right, up, and down&#10;&#10;&#10;" />
+      <Button layoutX="280.0" layoutY="355.0" mnemonicParsing="false" onAction="#closeCurrentWindow" text="OK" />
+   </children>
+</Pane>
